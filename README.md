@@ -1,3 +1,5 @@
+### ACMT CONFIGURATION AND INSTRUCTIONS ##
+
 ACMT is a tool for gathering environmental measure (e.g. population, age) for a given area. 
 The ACMT also has a built-in geocoder that can be used to locally geocode address data. 
 
@@ -35,9 +37,6 @@ Below are instructions for setting up the ACMT on your computer.
 - WA does not need to be included, but if you do not include it, you may need to enter an address from your study instead in the testing section below
 - To include all states, put GEOCODER_STATES=* (note that the more state you include the longer the ACMT will take to install)
 - Save and close the file
-
-*Mount Local Folders*
-- If you need to retain participant addresses within a specific folder (i.e., if you are accessing participant address data on a server folder), you can update the 
 
 **4. Setup the ACMT: Mount Docker Containers**
 *Open Command Prompts (PC) or Terminal (Mac)*
